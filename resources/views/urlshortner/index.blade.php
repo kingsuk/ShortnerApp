@@ -75,7 +75,7 @@
 										<input id="givenUrl" class="myInput" type="text" name="">
 									</div>
 									<div class="col-sm-4">
-										<a id="swalbtn" class="learn-btn animated fadeInUp">Shorten Url</a>
+										<a id="swalbtn" style="cursor:pointer" class="learn-btn animated fadeInUp">Shorten Url</a>
 										
 									</div>
 								</div>
@@ -83,7 +83,7 @@
 						</div>
 					</div>
 				</div>
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 				<div class="row">
 					<div class="col-md-4">
 						
@@ -185,7 +185,7 @@
 								  	swal({
 										  title: "",
 										  text: errorMsg,
-										  type: "warning",
+										  type: "error",
 										  html: true
 										});	
 							  	}
